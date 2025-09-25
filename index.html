@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-flex">
+        <div class="section-container form-section">
+            <h1>STUDENT GRADE CALCULATOR</h1>
+            <p>Calculate grades easily with Niggatron.</p>
+            <form id="gradeForm">
+                <div class="form-label-row">
+                    <label for="name">Student Name:</label>
+                    <div class="form-row">
+                        <input type="text" id="name" placeholder="Type student name" required>
+                    </div>
+                </div>
+                <div class="form-label-row">
+                    <label for="grade1">GEC 09:</label>
+                    <div class="form-row">
+                        <input type="number" id="grade1" placeholder="GEC 09" min="0" max="100" required>
+                    </div>
+                </div>
+                <div class="form-label-row">
+                    <label for="grade2">PFIT 03:</label>
+                    <div class="form-row">
+                        <input type="number" id="grade2" placeholder="PFIT 03" min="0" max="100" required>
+                    </div>
+                </div>
+                <div class="form-label-row">
+                    <label for="grade3">PCIT 11:</label>
+                    <div class="form-row">
+                        <input type="number" id="grade3" placeholder="PCIT 11" min="0" max="100" required>
+                    </div>
+                </div>
+                <div class="form-label-row">
+                    <label for="grade4">PSIT 04:</label>
+                    <div class="form-row">
+                        <input type="number" id="grade4" placeholder="PSIT 04" min="0" max="100" required>
+                    </div>
+                </div>
+                <div class="form-label-row">
+                    <label for="grade5">CCIT 06:</label>
+                    <div class="form-row">
+                        <input type="number" id="grade5" placeholder="CCIT 06" min="0" max="100" required>
+                    </div>
+                </div>
+                <div class="form-label-row">
+                    <label for="grade6">PSIT 03:</label>
+                    <div class="form-row">
+                        <input type="number" id="grade6" placeholder="PSIT 03" min="0" max="100" required>
+                    </div>
+                </div>
+                <div class="form-label-row">
+                    <label for="grade7">PCIT 09:</label>
+                    <div class="form-row">
+                        <input type="number" id="grade7" placeholder="PCIT 09" min="0" max="100" required>
+                    </div>
+                </div>
+                <button type="submit">CALCULATE</button>
+            </form>
+        </div>
+        <div class="section-container result-section">
+            <div id="resultContainer" class="result-container" style="display:flexbox;">
+                <h2 style="text-align:center;">Result</h2>
+                <div id="resultText" class="gwa-box"></div>
+                    <p id="encourageMsg" style="color: black; display: none;">You're doing great!</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,192 @@
+.main-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100vw;
+    min-height: 100vh;
+    gap: 40px;
+}
+.section-container {
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(162, 83, 236, 0.12);
+    padding: 24px 18px 24px 18px;
+    margin-top: 40px;
+    min-width: 340px;
+    max-width: 420px;
+    box-shadow: 0px 4px 8px #936fd6;
+}
+.form-section {
+    width: 420px;
+}
+.result-section {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.result-container {
+    width: 100%;
+    min-width: 220px;
+    max-width: 320px;
+    background: #e9e3f7;
+    border: 1px solid #64469c;
+    border-radius: 8px;
+    padding: 15px 20px;
+    box-shadow: 0 2px 8px rgba(117, 47, 182, 0.12);
+    text-align: center;
+    margin-top: 5px;
+}
+.gwa-box {
+    background: #fff;
+    border: 2px solid #68558d;
+    border-radius: 8px;
+    padding: 18px 0;
+    margin-top: 10px;
+    width: 80%;
+    font-size: 1.5em;
+    color: rgb(135,90,194);
+    text-align: center;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100vw;
+    min-height: 100vh;
+    gap: 0px;
+}
+.result-container {
+    min-width: 220px;
+    max-width: 300px;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 0;
+}
+.result-container {
+    background: #e9e3f7;
+    border: none;
+    border-radius: 8px;
+    padding: px 20px;
+    margin-top: 10px;
+    width: 85%;
+    margin-left: 8px;
+    margin-right: 10px;
+    box-shadow: 0 2px 8px rgba(117, 47, 182, 0.12);
+    text-align: left;
+}
+.gwa-box {
+    background: #310f50;
+    border-style: groove rgb(245, 234, 245);
+    border-radius: 8px;
+    padding: 18px 0;
+    margin-top: 10px;
+    width: 40%;
+    font-size: 1.5em;
+    color: rgb(240, 237, 243);
+    text-align: center;
+    font-weight: bold;
+}
+
+body {
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(61, 36, 90);
+}
+.container {
+    background: rgb(255, 255, 255);
+    padding: 10px;
+    width: 650px;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgb(117, 47, 182);
+    text-align: center;
+}
+h1 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: rgb(135, 90, 194);
+    text-align: center;
+}
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: lightgray;
+    text-align: center;
+}
+form input {
+    width: 60%;
+    padding: 10px;
+    margin: 0 0 0 10px;
+    border: 1px solid rgb(146, 143, 143);
+    border-radius: 5px;
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: middle;
+}
+form label {
+    width: 35%;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(69, 31, 112);
+    margin-bottom: 0;
+    margin-top: 0;
+    vertical-align: middle;
+    font-weight: 500;
+    text-align: right;
+}
+.form-label-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.form-label-row label {
+    width: 35%;
+    text-align: right;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(69, 31, 112);
+    font-weight: 500;
+    margin-right: 20px;
+}
+.form-row {
+    background: #f6f2fa;
+    border: 1px solid #d1c4e9;
+    border-radius: 6px;
+    padding: 10px 15px;
+    margin-bottom: 0;
+    width: 65%;
+    display: flex;
+    align-items: center;
+}
+button {
+    width: 40%;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: white;
+    background: rgb(135, 90, 194);
+    border: none;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+    display: block;
+    margin-left: 250px;
+    margin-right: 10px;
+}
+button:hover {
+    background: rgb(38, 1, 59);
+}
